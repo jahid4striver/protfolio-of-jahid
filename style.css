@@ -46,6 +46,7 @@ section{
 .about-item2{
     width: 60%;
     font-family: 'PT Serif', serif;
+    margin-left: 10px;
 }
 .about-item1 img{
     width:80%;
@@ -109,13 +110,28 @@ footer{
     font-size: 14px;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (min-width: 600px) {
     .menu{
         width: 50%;
         margin-left: 20%;
         margin-top: 5px;
     }
   }
+  @media only screen and (min-width: 500px) {
+    .menu{
+        width: 50%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .menu{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: 5px;
+    }
+  } */
+
 
 /* nav h1{
     font-family: 'The Nautigal', cursive;
