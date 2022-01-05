@@ -1,0 +1,115 @@
+body{
+margin: 0;
+padding: 0;
+background-color: white;
+}
+header{
+    position: sticky;
+  
+}
+nav{
+    display: flex;
+    box-shadow: 1px 1px 5px gray;
+    
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 1%;
+    
+    color: black;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+}
+.menu a:hover{
+    color:orange;
+    transition: 0.5s;
+}
+section{
+    margin-top: 60px;
+}
+.about{
+    display: flex;
+}
+.about-item1{
+    width: 40%;
+    margin-left:2%;
+    
+}
+.about-item2{
+    width: 60%;
+    font-family: 'PT Serif', serif;
+}
+.about-item1 img{
+    width:80%;
+    box-shadow: 2px 2px 10px gray;
+}
+h6{
+    font-family: 'Recursive', sans-serif;
+    
+}
+.about-item2 p{
+    font-size: 10px;
+}
+.about-item2 a{
+    text-decoration: none;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+
+
+}
+.about-item2 a:hover{
+    background-image: linear-gradient(orange, red);
+    color: white;
+    padding: 10px 30px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px lightgray;
+
+
+}
+
+.skills{
+    display: flex;
+}
+.skill-item{
+    width: 30%;
+    margin-left: 1.67%;
+    margin-right: 1.67%;
+    box-shadow: 5px 5px 10px lightgray;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-right: 5px solid;
+    border-image: linear-gradient(black, red);
+    border-image-slice:9;
+}
+.skill-item h6{
+    color: lightsalmon;
+}
+.skills p{
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: justify;
+}
+footer{
+   
+    text-align: center;
+    margin-top: 50px;
+   padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    font-size: 12px;
+}
+
+/* nav h1{
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+} */
