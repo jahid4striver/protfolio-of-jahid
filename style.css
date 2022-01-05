@@ -92,8 +92,8 @@ h6{
     border-image: linear-gradient(black, red);
     border-image-slice:9;
 }
-.skill-item h6{
-    color: lightsalmon;
+.tomato-color{
+    color: tomato;
 }
 .skills p{
     font-size: 14px;
